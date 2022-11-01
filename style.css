@@ -1,0 +1,38 @@
+:root{
+    --primary-dark: #0f172a;
+    --primary-light: #67e8f9;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body{
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    font-family: 'Inconsolata', monospace;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 40%;
+    margin: auto;
+}
+
+input, label{
+    display: block;
+}
+
+input{
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+#check-button{
+    margin-top: 1rem;
+    margin: auto;
+    display: block;
+    background: transparent;
+    color: var(--primary-light);
+    border-width: medium;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
