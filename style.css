@@ -36,3 +36,34 @@ input{
     padding: 1rem;
     border-radius: 0.3rem;
 }
+
+.footer {
+    background-color: var(--primary-color);
+    padding-left: 1rem ;
+    padding-right: 1rem;
+    padding-top: 20vw;
+    text-align: center;
+    
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: var(--primary-light);
+}
