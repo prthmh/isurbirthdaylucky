@@ -35,6 +35,7 @@ input{
     border-width: medium;
     padding: 1rem;
     border-radius: 0.3rem;
+    border-color: whitesmoke;
 }
 
 .footer {
